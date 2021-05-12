@@ -1,0 +1,327 @@
+
+@media (max-width: 320px) {
+
+    .wrapper {
+        padding: 0 14px;
+    }
+
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 14px;
+    }
+
+
+    .header__menu{
+        width: 50%;
+        padding-right: 30px;
+    }
+    
+    .header__menu-list {
+        display: none; 
+    
+    }
+
+    .header__contacts{
+    width: 50%;
+    flex-shrink: 0;
+    }
+    
+    .header__phone {
+        font-size: 15px;
+        line-height: 18px;
+    
+    }
+    
+    .header__adress {
+        padding-top: 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+
+    /* intro */
+
+
+    .intro {
+        padding-bottom: 40px;
+    }
+
+    
+    .intro-wrapper {
+        flex-direction: column;
+         padding-top: 0;
+    
+    }
+    
+    .intro-desc {
+        padding-top: 111px;
+
+        width: 100%;
+    }
+    
+    .intro-tittle {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    }
+    
+    .intro-text {
+        padding-top: 12px;
+        margin-bottom: 14px;
+        font-size: 15px;
+        line-height: 24px;        
+        opacity: 0.7;
+    }
+    
+    .intro-open {
+width: 100%;
+text-align: center;
+margin-top: 0;
+padding: 4px;
+margin-bottom: 33px;
+font-size: 13px;
+line-height: 15px;
+
+    }
+    
+    .intro-pic {
+    padding: 0 22px;
+    margin: 0 auto;
+    }
+
+    
+    .arrow-block {
+display: none;  
+    }
+
+
+.main {
+    padding: 70px 0;
+}
+
+
+    /* ask */
+
+    .ask-wrapper {
+flex-direction: column-reverse;
+justify-content: none;
+margin-bottom: 70px;
+padding-top:0;
+    }
+    
+
+    
+.ask-desc {
+    width: 100%;
+    padding:0;
+    margin-bottom: 30px;
+}
+    
+.ask-title {
+margin-bottom: 16px;
+font-size: 25px;
+line-height: 33px;
+}
+    
+.ask-text {
+font-size: 15px;
+line-height: 24px;
+opacity: 0.7;
+padding:0;
+max-width: none;
+    }
+
+
+.ask-pic-wrapper {
+max-width: 100%;
+padding: 0 22px;
+margin: 0 auto;
+}
+
+    
+.welcome {
+margin-bottom: 70px;
+padding: 0 14px;
+}
+
+.welcome-text{
+    font-size: 17px;
+    line-height: 26px;
+}
+
+
+
+/* about */
+
+
+.about{
+    margin-bottom: 70px;
+}
+
+.about-wrapper {
+    flex-direction: column;
+}
+
+.about-descr-wrapper{
+position: relative;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+margin-bottom: 30px;
+}
+
+
+.about-desc-title {
+padding-bottom: 16px;
+font-size: 25px;
+line-height: 33px;
+}
+
+.about-desc-text {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+    opacity: .7;
+}
+
+.about-img1-wrapper {
+    width: 100%;
+    margin-bottom: 19px;
+}
+
+
+.desc_pics {
+    width: 100%;
+padding: 0;
+
+
+}
+
+.about-img2{
+    display: block;
+    width: 100%;
+
+}
+
+.about-img3{
+    display: none;
+
+}
+
+
+/* excursion */
+
+
+.excursion-wrapper {
+max-width: 100%;
+max-height: none;
+padding: 30px 16px;
+}
+
+.excursion-title {
+
+font-size: 20px;
+line-height: 29px;
+margin-bottom: 20px;
+
+}
+    
+.schedule-title {
+display: none;    
+}
+
+
+.schedule-title-short{
+display: block;
+font-family: Tenor Sans;
+text-transform: uppercase;
+font-size: 17px;
+line-height: 20px;
+margin-bottom: 15px;
+}
+    
+.schedule{
+max-width: 130px;
+margin-bottom: 30px;
+}
+    
+.scedule-time-wrapper{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin: 0;
+}
+    
+
+.time {
+margin-bottom: 12px;
+font-size: 18px;
+line-height: 18px;
+}
+
+
+
+
+.bilet-link{
+display: block;
+padding: 15px auto 17px;
+font-size: 18px;
+line-height: 28px;
+
+}
+
+
+    /* footer */
+    
+
+
+
+
+.background{
+padding: 50px 18px;
+
+}
+
+
+
+
+.contact-title {
+font-size: 20px;
+line-height: 29px;
+margin-bottom: 20px;  
+
+
+}
+
+.contacts-adress {
+font-size: 20px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+
+.contacts-mail {
+font-size: 20px;
+line-height: 35px;
+}
+
+.contact-adress-title{
+display: block;
+margin-bottom: 4px;
+font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+}
+
+.arrow-block-footer {
+
+right: 15px;
+bottom: 21px;
+}
+
+}
+
